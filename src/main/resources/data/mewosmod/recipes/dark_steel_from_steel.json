@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "+-+",
+    "-#-",
+    "+-+"
+  ],
+  "key": {
+    "#": {
+      "item": "mewosmod:steel_ingot"
+    },
+    "-": {
+      "item": "minecraft:blaze_powder"
+    },
+    "+": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "mewosmod:dark_steel_ingot"
+  }
+}

@@ -1,3 +1,7 @@
 {
-  "item.mewosmod.steel_ingot": "Steel Ingot"
+  "item.mewosmod.steel_ingot": "Steel Ingot",
+  "item.mewosmod.dark_steel_ingot": "Dark Steel Ingot",
+  "block.mewosmod.steel_block": "Block of Steel",
+  "block.mewosmod.dark_steel_block": "Block of Dark Steel"
+
 }

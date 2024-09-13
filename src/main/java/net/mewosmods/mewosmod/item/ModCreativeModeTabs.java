@@ -1,6 +1,7 @@
 package net.mewosmods.mewosmod.item;
 
 import net.mewosmods.mewosmod.MewosMod;
+import net.mewosmods.mewosmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,10 +21,12 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> Materials = CREATIVE_MODE_TABS.register("materials",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STEELINGOT.get()))
-                    .title(Component.translatable("creativetab.materials"))
+                    .title(Component.translatable("materials"))
                     .displayItems((pParamaters, pOutput) -> {
                         pOutput.accept(ModItems.STEELINGOT.get());
+                        pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                         pOutput.accept(ModItems.DARKSTEELINGOT.get());
+                        pOutput.accept(ModBlocks.DARK_STEEL_BLOCK.get());
                     })
                     .build());
 

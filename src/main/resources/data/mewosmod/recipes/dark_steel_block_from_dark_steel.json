@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mewosmod:dark_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "mewosmod:dark_steel_block"
+  }
+}
