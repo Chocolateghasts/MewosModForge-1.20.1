@@ -1,6 +1,7 @@
 package net.mewosmods.mewosmod;
 
 import com.mojang.logging.LogUtils;
+import net.mewosmods.mewosmod.item.ModCreativeModeTabs;
 import net.mewosmods.mewosmod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,7 +31,7 @@ public class MewosMod
     public MewosMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -55,6 +56,7 @@ public class MewosMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.STEELINGOT);
+            event.accept(ModItems.DARKSTEELINGOT);
         }
     }
 
