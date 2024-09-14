@@ -15,6 +15,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DARKSTEELINGOT = ITEMS.register("dark_steel_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DARK_ESSENCE = ITEMS.register("dark_essence",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

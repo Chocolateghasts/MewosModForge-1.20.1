@@ -27,6 +27,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
                         pOutput.accept(ModItems.DARKSTEELINGOT.get());
                         pOutput.accept(ModBlocks.DARK_STEEL_BLOCK.get());
+                        pOutput.accept(ModBlocks.DARK_ESSENCE_ORE.get());
+                        pOutput.accept(ModItems.DARK_ESSENCE.get());
                     })
                     .build());
 
