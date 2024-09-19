@@ -29,6 +29,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.DARK_STEEL_BLOCK.get());
                         pOutput.accept(ModBlocks.DARK_ESSENCE_ORE.get());
                         pOutput.accept(ModItems.DARK_ESSENCE.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.MAGMA_BERRY.get());
                     })
                     .build());
 
