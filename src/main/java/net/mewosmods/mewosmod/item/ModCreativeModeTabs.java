@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.DARK_ESSENCE.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.MAGMA_FRUIT.get());
+                        pOutput.accept(ModItems.MAGMA_ESSENCE.get());
                     })
                     .build());
 
