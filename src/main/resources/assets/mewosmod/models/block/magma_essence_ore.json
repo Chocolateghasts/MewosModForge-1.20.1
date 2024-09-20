@@ -6,6 +6,7 @@
     "north": "mewosmod:block/magma_essence_ore_sides",
     "south": "mewosmod:block/magma_essence_ore_sides",
     "east": "mewosmod:block/magma_essence_ore_sides",
-    "west": "mewosmod:block/magma_essence_ore_sides"
+    "west": "mewosmod:block/magma_essence_ore_sides",
+    "particle": "mewosmod:block/magma_essence_ore_sides"
   }
 }
