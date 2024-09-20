@@ -46,11 +46,11 @@ public class MetalDetectorItem extends Item {
     }
 
     private void outputValuableCoordinates(BlockPos blockPos, Player player, Block block) {
-        player.sendSystemMessage(Component.literal("Found" + I18n.get(block.getDescriptionId()) + " at " +
+        player.sendSystemMessage(Component.literal("Found " + I18n.get(block.getDescriptionId()) + " at " +
                 "(" + blockPos.getX() + ", " + blockPos.getY() + ", " + blockPos.getZ() + ")"));
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.COAL_ORE) || state.is(Blocks.COPPER_ORE) || state.is(Blocks.LAPIS_ORE) || state.is(Blocks.IRON_ORE) || state.is(Blocks.REDSTONE_ORE) || state.is(Blocks.DIAMOND_ORE) || state.is(Blocks.GOLD_ORE) || state.is(Blocks.EMERALD_ORE) || state.is(Blocks.ANCIENT_DEBRIS) || state.is(Blocks.NETHER_QUARTZ_ORE) || state.is(Blocks.NETHER_GOLD_ORE) || state.is(ModBlocks.DARK_ESSENCE_ORE.get());
+        return state.is(Blocks.COAL_ORE) || state.is(Blocks.COPPER_ORE) || state.is(Blocks.LAPIS_ORE) || state.is(Blocks.IRON_ORE) || state.is(Blocks.REDSTONE_ORE) || state.is(Blocks.DIAMOND_ORE) || state.is(Blocks.GOLD_ORE) || state.is(Blocks.EMERALD_ORE) || state.is(Blocks.ANCIENT_DEBRIS) || state.is(Blocks.NETHER_QUARTZ_ORE) || state.is(Blocks.NETHER_GOLD_ORE) || state.is(ModBlocks.DARK_ESSENCE_ORE.get()) || state.is(ModBlocks.MAGMA_ESSENCE_ORE.get());
     }
 }

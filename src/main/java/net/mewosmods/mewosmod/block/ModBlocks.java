@@ -30,7 +30,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> DARK_ESSENCE_ORE = registerBlock("dark_essence_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE).requiresCorrectToolForDrops(), UniformInt.of(5, 10)));
     public static final RegistryObject<Block> MAGMA_ESSENCE_ORE = registerBlock("magma_essence_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.BASALT).requiresCorrectToolForDrops(), UniformInt.of(6, 13)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.BASALT).strength(2, 7).requiresCorrectToolForDrops(), UniformInt.of(6, 13)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
