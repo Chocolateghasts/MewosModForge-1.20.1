@@ -21,7 +21,7 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> Materials = CREATIVE_MODE_TABS.register("materials",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STEELINGOT.get()))
-                    .title(Component.translatable("materials"))
+                    .title(Component.translatable("Materials"))
                     .displayItems((pParamaters, pOutput) -> {
                         pOutput.accept(ModItems.STEELINGOT.get());
                         pOutput.accept(ModBlocks.STEEL_BLOCK.get());
