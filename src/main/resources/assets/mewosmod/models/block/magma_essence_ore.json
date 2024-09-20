@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "mewosmod:block/magma_essence_ore_upanddown",
+    "down": "mewosmod:block/magma_essence_ore_upanddown",
+    "north": "mewosmod:block/magma_essence_ore_sides",
+    "south": "mewosmod:block/magma_essence_ore_sides",
+    "east": "mewosmod:block/magma_essence_ore_sides",
+    "west": "mewosmod:block/magma_essence_ore_sides"
+  }
+}

@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.MAGMA_FRUIT.get());
                         pOutput.accept(ModItems.MAGMA_ESSENCE.get());
+                        pOutput.accept(ModBlocks.MAGMA_ESSENCE_ORE.get());
                     })
                     .build());
 
